@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="More Ice, More Sweet — Elite 50K flavor showcase.">
+  <title>More Ice, More Sweet | Elite 50K</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="More Ice, More Sweet home">
+      <span class="brand-mark">MI</span>
+      <span class="brand-copy"><strong>More Ice,</strong><strong>More Sweet</strong><small>ELITE 50K PUFFS</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#flavors">Flavors</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="header-cta" href="#flavors">Explore Flavors <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-art" role="img" aria-label="Icy fruit and Elite 50K product banner"></div>
+      <div class="hero-content">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> BLACK ELITE COLLECTION</span>
+        <h1>More Ice.<br><span>More Sweet.</span></h1>
+        <p class="hero-subtitle">Meet the flavor lineup.</p>
+        <p class="hero-copy">Explore ten bold fruit-inspired flavor names in the Elite 50K collection.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#flavors">Discover the Flavors <span>↓</span></a>
+          <a class="button button-ghost" href="#features">Product Details</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">❄</span><span><strong>ELITE 50K</strong><small>Flavor showcase</small></span></div>
+      </div>
+      <div class="hero-bottom-label">A COOLER LOOK. A BOLDER LINEUP.</div>
+    </section>
+
+    <section class="flavors section-wrap" id="flavors">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">FIND YOUR FAVORITE</span>
+          <h2>Explore the <span>Flavors</span></h2>
+          <p>Ten colorful designs. One standout collection.</p>
+        </div>
+        <div class="flavor-count"><strong>10</strong><span>FLAVORS</span></div>
+      </div>
+      <div class="filter-row" aria-label="Flavor filters">
+        <button class="filter-chip selected" data-filter="all">All flavors <span>10</span></button>
+        <button class="filter-chip" data-filter="red">Red &amp; Pink</button>
+        <button class="filter-chip" data-filter="blue">Blue &amp; Purple</button>
+        <button class="filter-chip" data-filter="fruit">Fruit Mix</button>
+      </div>
+      <div class="flavor-grid" id="flavorGrid">
+        <article class="flavor-card" data-category="red fruit" data-name="Red Pulp">
+          <div class="card-image"><img src="assets/red-pulp.jpg" alt="Red Pulp flavor artwork" loading="lazy"><span class="card-number">01</span></div>
+          <div class="card-info"><div><span class="card-label">FRUIT SERIES</span><h3>Red Pulp</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Red Pulp">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="red fruit" data-name="Very More">
+          <div class="card-image"><img src="assets/very-more.jpg" alt="Very More flavor artwork" loading="lazy"><span class="card-number">02</span></div>
+          <div class="card-info"><div><span class="card-label">BERRY SERIES</span><h3>Very More</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Very More">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="fruit" data-name="Bacteria Monster">
+          <div class="card-image"><img src="assets/bacteria-monster.jpg" alt="Bacteria Monster flavor artwork" loading="lazy"><span class="card-number">03</span></div>
+          <div class="card-info"><div><span class="card-label">SPECIAL SERIES</span><h3>Bacteria Monster</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Bacteria Monster">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="red fruit" data-name="Very Baguio">
+          <div class="card-image"><img src="assets/very-baguio.jpg" alt="Very Baguio flavor artwork" loading="lazy"><span class="card-number">04</span></div>
+          <div class="card-info"><div><span class="card-label">BERRY SERIES</span><h3>Very Baguio</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Very Baguio">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="blue fruit" data-name="Trouble Purple">
+          <div class="card-image"><img src="assets/trouble-purple.jpg" alt="Trouble Purple flavor artwork" loading="lazy"><span class="card-number">05</span></div>
+          <div class="card-info"><div><span class="card-label">DARK BERRY SERIES</span><h3>Trouble Purple</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Trouble Purple">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="blue fruit" data-name="Blue Freeze">
+          <div class="card-image"><img src="assets/blue-freeze.jpg" alt="Blue Freeze flavor artwork" loading="lazy"><span class="card-number">06</span></div>
+          <div class="card-info"><div><span class="card-label">COOL SERIES</span><h3>Blue Freeze</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Blue Freeze">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="red fruit" data-name="Red Cannon">
+          <div class="card-image"><img src="assets/red-cannon.jpg" alt="Red Cannon flavor artwork" loading="lazy"><span class="card-number">07</span></div>
+          <div class="card-info"><div><span class="card-label">BOLD SERIES</span><h3>Red Cannon</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Red Cannon">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="red fruit" data-name="Pink Sunset">
+          <div class="card-image"><img src="assets/pink-sunset.jpg" alt="Pink Sunset flavor artwork" loading="lazy"><span class="card-number">08</span></div>
+          <div class="card-info"><div><span class="card-label">TROPICAL SERIES</span><h3>Pink Sunset</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Pink Sunset">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="fruit" data-name="Yellow Monster">
+          <div class="card-image"><img src="assets/yellow-monster.jpg" alt="Yellow Monster flavor artwork" loading="lazy"><span class="card-number">09</span></div>
+          <div class="card-info"><div><span class="card-label">TROPICAL SERIES</span><h3>Yellow Monster</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Yellow Monster">View flavor <span>↗</span></button>
+        </article>
+        <article class="flavor-card" data-category="blue fruit" data-name="Black Wave">
+          <div class="card-image"><img src="assets/black-wave.jpg" alt="Black Wave flavor artwork" loading="lazy"><span class="card-number">10</span></div>
+          <div class="card-info"><div><span class="card-label">DARK SERIES</span><h3>Black Wave</h3></div><span class="price">₱270</span></div>
+          <button class="details-button" data-flavor="Black Wave">View flavor <span>↗</span></button>
+        </article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No flavors found in this category.</p>
+    </section>
+
+    <section class="features" id="features">
+      <div class="features-inner">
+        <div class="features-intro"><span class="section-kicker">ELITE COLLECTION</span><h2>Details that<br><span>stand out.</span></h2><p>Product specifications shown in the supplied promotional artwork.</p></div>
+        <div class="feature-item"><span class="feature-icon">▥</span><div><h3>Mesh Coil</h3><p>Mesh coil system</p></div></div>
+        <div class="feature-item"><span class="feature-icon">◉</span><div><h3>30 mg/mL Freebase</h3><p>Nicotine specification</p></div></div>
+        <div class="feature-item"><span class="feature-icon">◇</span><div><h3>Transparent</h3><p>Transparent device design</p></div></div>
+        <div class="feature-item"><span class="feature-icon">≈</span><div><h3>Approximately 50,000 Puffs</h3><p>Manufacturer-stated estimate</p></div></div>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-symbol">MI<span>✦</span></div>
+      <div><span class="section-kicker">MORE ICE, MORE SWEET</span><h2>The Elite 50K <span>Collection</span></h2><p>A visual flavor catalog created to make every listed option easy to explore.</p></div>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">More Ice, More Sweet <span>ELITE 50K PUFFS</span></div>
+    <p>For adults of legal age only. This product contains nicotine, an addictive substance. Follow local laws and product warnings.</p>
+    <small>© <span id="year"></span> More Ice, More Sweet — Product showcase concept.</small>
+  </footer>
+
+  <div class="modal-backdrop" id="flavorModal" hidden>
+    <section class="flavor-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close details">×</button>
+      <span class="modal-kicker">FLAVOR DETAILS</span>
+      <h2 id="modalTitle">Flavor Name</h2>
+      <p>Listed price</p>
+      <strong class="modal-price">₱270</strong>
+      <p class="modal-disclaimer">Flavor names and product details are presented as shown in the provided artwork. Check the original packaging for complete product information.</p>
+      <button class="button button-primary modal-done" id="modalDone">Done</button>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
